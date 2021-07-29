@@ -16,7 +16,7 @@
 
 }
 .showcase{
-   height:200px;
+   height:270px;
 }
 
 #title1, #title2, #title3{
@@ -102,13 +102,14 @@
 }
 .container{
     text-align: center;
+    margin-bottom:20vw;
     
 }
 .carousel{
     margin:auto;
     width:60vw;
     height:30vw;
-    margin-bottom:50px;
+   
 
 }
 
@@ -126,6 +127,18 @@
  .head{
     color:white !important;
   }
+#cont{
+    height:300px;
+    width:100vw;
+    background: linear-gradient(180deg, rgba(54, 85, 166, 0.58), rgba(201, 206, 255, 0.58) 100%);
+   
+}
+@media (min-width:900px){
+    #cont{
+        margin-top:15%;
+
+    }
+}
  
 @media (max-width:865px){
     #showcase{
