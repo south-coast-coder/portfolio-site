@@ -102,11 +102,14 @@
 }
 .container{
     text-align: center;
+    
 }
 .carousel{
     margin:auto;
     width:60vw;
     height:30vw;
+    margin-bottom:50px;
+
 }
 
 .carousel-inner > .item > img,
@@ -117,6 +120,13 @@
     width:100%;
     margin: auto;
   }
+  #bf, #git, #hawk p{
+    color:black !important;
+}
+ .head{
+    color:white !important;
+  }
+ 
 @media (max-width:865px){
     #showcase{
         
